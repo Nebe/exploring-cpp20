@@ -1,5 +1,11 @@
 # Errata for *Exploring C++20*
 
+On **page 80** [technical accuracy]:
+ 
+The book falsely states that "the *or* operator evaluates its right-hand operand only if the left-hand operand is *true*." The short-circuting of the *or* logical operator happens, when the left-hand operator is *false*.
+
+***
+
 On **page 109** [technical accuracy]:
  
 The book states "C++ guarantees that any character set your compiler and library support represents digit characters with contiguous values", which is true.
